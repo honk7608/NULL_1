@@ -1,5 +1,11 @@
-
-.divAll .null {background-color: red;}
-.divAll > .null {color: white;}
-#div1 ~ .null {border-radius: 10px;}
-#div1 + .null {border: 5px black solid;}
+h1 {
+    padding: 1vh;
+    background-color: #00A49520;
+    border: #00A495 5px solid;
+}
+h2 {
+    color: #00A495;
+}
+div {
+    border: #00A495 1px solid;
+}
