@@ -30,6 +30,9 @@ header {
         li {
             padding: 1rem;
         }
+        li.curr {
+            text-decoration: underline 5px #013B84;
+        }
     }
 }
 
