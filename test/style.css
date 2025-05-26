@@ -16,3 +16,21 @@ h3 {
 div {
     border: #00A495 1px solid;
 }
+.blackBorder {
+    border: black 10px solid
+}
+.blackBorder div {
+    border: purple 5px solid;
+}
+#cyanBorder {
+    border: cyan 10px solid;
+}
+#cyanBorder div {
+    border: magenta 5px solid;
+}
+#cyanBorder ~ div {
+    background-color: lightgoldenrodyellow;
+}
+#cyanBorder + div {
+    background-color: lightgray;
+}
